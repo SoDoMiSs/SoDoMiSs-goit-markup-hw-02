@@ -1,0 +1,95 @@
+:root {
+    --title-text-color: #2E2F42;
+    --paragraph-text-color: #434455;
+
+
+}
+
+body {
+    color: var(--title-text-color);
+    background-color: #fff;
+}
+.list {
+    list-style: none;
+}
+/* logo */
+.logo {
+    color: #2E2F42;
+}
+.logo:hover, 
+.logo:focus {
+    color: #4D5AE5;
+}
+.logo1 {
+    color: #4D5AE5;
+}
+.logo-f {
+    color: #F4F4FD;
+}
+.logo-f:hover,
+.logo-f:focus {
+    color: #4D5AE5;
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #4D5AE5;
+
+}
+
+.site-nav .link:active {
+    color: #4D5AE5;
+}
+
+/* contacs nav */
+
+.con-nav .contacs {
+    color: var(--paragraph-text-color);
+}
+.contacs:hover,
+.contacs:focus {
+    color: #4D5AE5;
+
+}
+
+/* section hero */
+
+.servise-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.hero {
+    background-color: var(--title-text-color);
+    color: #FFFFFF;
+}
+
+/* section about us */
+
+.section-title {
+    color: var(--paragraph-text-color);
+}
+
+/* What are we doing */
+
+.responsibilities-title{
+    color: rgba(00, 00, 00, 0.75);
+}
+
+/* Team */
+.team-title {
+    color: var(--paragraph-text-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--title-text-color);
+}
+.footer-title {
+    color: #E7E9FC;
+}
