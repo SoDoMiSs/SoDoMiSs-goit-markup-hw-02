@@ -8,6 +8,9 @@
 body {
     color: var(--title-text-color);
     background-color: #fff;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    
 }
 .list {
     list-style: none;
@@ -15,6 +18,12 @@ body {
 /* logo */
 .logo {
     color: #2E2F42;
+    font-family: Raleway, cursive;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
 }
 .logo:hover, 
 .logo:focus {
@@ -35,8 +44,13 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
 }
+
+
 .site-nav .link:hover, 
 .site-nav .link:focus {
     color: #4D5AE5;
@@ -51,6 +65,9 @@ body {
 
 .con-nav .contacs {
     color: var(--paragraph-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
 }
 .contacs:hover,
 .contacs:focus {
@@ -61,30 +78,80 @@ body {
 /* section hero */
 
 .servise-button {
-    background-color: #4D5AE5;
     color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+   }
+.servise-button:hover,
+.servise-button:focus {
+    color: #4D5AE5;
+    background-color: #fff;
+    
 }
+
+   
 .hero {
     background-color: var(--title-text-color);
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
 
 /* section about us */
+.section-priveleges {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
 
 .section-title {
     color: var(--paragraph-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    
 }
 
 /* What are we doing */
 
-.responsibilities-title{
+.responsibilities-title {
     color: rgba(00, 00, 00, 0.75);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
 }
 
 /* Team */
-.team-title {
-    color: var(--paragraph-text-color);
+
+.team {
+    background-color: #F4F4FD;
 }
+.second-title {
+    color: var(--totle-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.paragraph-title {
+color: var(--paragraph-text-color);
+font-size: 16px;
+line-height: 1.5;
+
+}
+
 
 /* Footer */
 .footer {
@@ -92,4 +159,44 @@ body {
 }
 .footer-title {
     color: #E7E9FC;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Button */
+.servise-button {
+color: #FFFFFF;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+}
+
+
+
+/* portfolio html */
+.button-ul {
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+
+
+.button-ul:hover,
+.button-ul:focus {
+    color: #fff;
+    background-color: #404BBF;
+}
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.servises {
+    font-size: 16px;
+    line-height: 1.5;
 }
